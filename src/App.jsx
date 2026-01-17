@@ -15,7 +15,7 @@ function App() {
     <h1>Linguaggi</h1>
 
     {languages.map((language, indice) =>
-      <button onClick={() => { onElementoCliccato(indice) }}>{language.title}</button>
+      <button onClick={() => onElementoCliccato(indice)}>{language.title}</button>
     )}
 
     <div>
